@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<!--Create an icon for the title-->
+    <title>EatXperience</title>
+  </head>
+  <body>
+    <div class="container" align="center">
+      <div class="card card-body bg-light"><!--card card-body bg-light-->
+        <h3>Welcome to EatXperience</h3>
+          <div class="form-group">
+            <input type="text" name="username" class="form-control" placeholder="Enter your Email"><br>
+            <input type="password" name="pass" class="form-control" placeholder="Enter your password"><br>
+            <button type="submit" name="lgBtn" class="btn btn-primary">Login</button>
+          </div>
+      </div>
+      </div>
+      <div class="container" align="center">
+        <h4>Not Yet?</h4>
+        <br>
+        Ever wondering to join EatXperience <button type="button" name="rgBtn" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Click here</button>
+      </div>
+      <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Register Here</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form class="form" action="index.html" method="post">
+            <div class="form-group">
+              <input type="text" name="usernameOne" class="form-control" value="" placeholder="Enter your name"><br>
+              <input type="email" name="userEmail" class="form-control" value="" placeholder="Enter your email"><br>
+              <input type="password" name="userPass" class="form-control" value="" placeholder="Enter a password"><br>
+              <input type="password" name="userRepass" class="form-control" value="" placeholder="Confirm your password"><br>
+              <button type="submit" name="regSub" class="btn btn-info">Sign Up</button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
